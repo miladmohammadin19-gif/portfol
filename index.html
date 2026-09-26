@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="سایت شخصی میلاد محمدی، برنامه‌نویس و طراح وب">
+  <meta name="theme-color" content="#2563eb">
+
+  <title>میلاد محمدی | برنامه‌نویس و طراح وب</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- MUSIC PLAYER -->
+<div class="music-player">
+  <button id="musicBtn" aria-label="پخش موسیقی">▶️</button>
+
+  <div>
+    <strong>موسیقی سایت</strong>
+    <small>میلاد محمدی</small>
+  </div>
+
+  <input id="volume" type="range" min="0" max="1" step="0.05" value="0.5">
+
+  <audio id="music" src="music.mp3" loop></audio>
+</div>
+
+
+
+<body>
+
+  <header class="header">
+    <div class="container nav">
+
+      <a href="#home" class="logo">میلاد<span> محمدی</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="منو">
+        ☰
+
+
+      </button>
+
+      <nav id="navMenu">
+        <a href="#home">خانه</a>
+        <a href="#about">درباره من</a>
+        <a href="#services">خدمات</a>
+        <a href="#projects">نمونه‌کارها</a>
+        <a href="#contact">تماس</a>
+      </nav>
+
+      <button class="theme-btn" id="themeBtn" aria-label="تغییر حالت">
+        🌙
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+      <div class="container hero-grid">
+
+        <!-- متن اصلی -->
+        <div class="hero-text">
+
+          <p class="hello">سلام، من</p>
+
+          <h1>میلاد محمدی</h1>
+
+          <h2>برنامه‌نویس و طراح وب</h2>
+
+          <p class="hero-desc">
+            من با استفاده از HTML، CSS و JavaScript، ایده‌ها را به
+            وب‌سایت‌های مدرن، سریع و واکنش‌گرا تبدیل می‌کنم.
+            در کنار طراحی وب، به Python نیز علاقه‌مندم و روی ساخت
+            پروژه‌های کاربردی و توسعه مهارت‌های برنامه‌نویسی کار می‌کنم.
+          </p>
+
+          <p class="hero-intro">
+            هدف من ساخت تجربه‌ای ساده، زیبا و قابل استفاده برای هر
+            بازدیدکننده است؛ از یک سایت شخصی گرفته تا یک وب‌سایت
+            حرفه‌ای برای معرفی کسب‌وکار.
+          </p>
+
+          <div class="buttons">
+
+            <a href="#projects" class="btn primary">
+              مشاهده نمونه‌کارها
+            </a>
+
+            <a href="#contact" class="btn secondary">
+              درخواست پروژه
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- کارت پروفایل -->
+        <div class="profile-card">
+
+          <div class="profile-glow"></div>
+
+          <div class="profile-image">
+            <img src="me.jpg" alt="میلاد محمدی">
+          </div>
+
+          <h3>میلاد محمدی</h3>
+
+          <p class="profile-job">
+            Web Developer
+          </p>
+
+          <p class="profile-text">
+            طراحی وب‌سایت‌های مدرن و واکنش‌گرا با تمرکز بر
+            ظاهر حرفه‌ای، سرعت و تجربه کاربری.
+          </p>
+
+          <div class="code-mini">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+
+          </div>
+
+          <div class="profile-status">
+            <span></span>
+            آماده همکاری روی پروژه‌ها
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+      <div class="container">
+
+        <div class="section-title">
+          <span>معرفی</span>
+          <h2>درباره من</h2>
+        </div>
+
+        <div class="about-box">
+
+          <div>
+            <h3>برنامه‌نویس و علاقه‌مند به تکنولوژی</h3>
+
+            <p>
+              من میلاد محمدی هستم و در زمینه برنامه‌نویسی و طراحی وب
+              فعالیت می‌کنم. به ساخت سایت‌های مدرن، سریع و سازگار
+              با موبایل و کامپیوتر علاقه دارم.
+            </p>
+
+            <p>
+              هدف من همکاری روی پروژه‌های واقعی و توسعه مهارت‌هایم
+              در زمینه برنامه‌نویسی و طراحی وب است.
+            </p>
+          </div>
+
+          <div class="about-info">
+            <div>
+              <strong>تحصیلات</strong>
+              <span>فارغ‌التحصیل </span>
+            </div>
+
+            <div>
+              <strong>محل</strong>
+              <span>افغانستان</span>
+            </div>
+
+            <div>
+              <strong>زمینه</strong>
+              <span>برنامه‌نویسی و طراحی وب</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section gray">
+
+      <div class="container">
+
+        <div class="section-title">
+          <span>خدمات</span>
+          <h2>چه کاری انجام می‌دهم؟</h2>
+        </div>
+
+        <div class="cards">
+
+          <article class="card">
+            <div class="card-icon">🌐</div>
+            <h3>طراحی سایت</h3>
+            <p>
+              طراحی سایت‌های مدرن و واکنش‌گرا برای افراد و کسب‌وکارها.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">💻</div>
+            <h3>برنامه‌نویسی</h3>
+            <p>
+              توسعه قابلیت‌های وب و ساخت پروژه‌های کاربردی.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">📱</div>
+            <h3>طراحی موبایل</h3>
+            <p>
+              طراحی سایت‌هایی که روی موبایل، تبلت و کامپیوتر درست نمایش داده شوند.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section">
+
+      <div class="container">
+
+        <div class="section-title">
+          <span>مهارت‌ها</span>
+          <h2>مهارت‌های من</h2>
+        </div>
+
+        <div class="skills">
+
+          <div class="skill">
+            <div>
+              <span>HTML</span>
+              <b>95%</b>
+            </div>
+            <div class="progress">
+              <i style="width:95%"></i>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div>
+              <span>CSS</span>
+              <b>90%</b>
+            </div>
+            <div class="progress">
+              <i style="width:90%"></i>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div>
+              <span>JavaScript</span>
+              <b>80%</b>
+            </div>
+            <div class="progress">
+              <i style="width:80%"></i>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div>
+              <span>Python</span>
+              <b>80%</b>
+            </div>
+            <div class="progress">
+              <i style="width:80%"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section gray">
+
+      <div class="container">
+
+        <div class="section-title">
+          <span>نمونه‌کار</span>
+          <h2>پروژه‌های من</h2>
+        </div>
+
+        <div class="projects">
+
+          <!-- Project 01 -->
+          <article class="project">
+
+            <div class="project-image">
+              <img src="i 1.jpg" alt="وب‌سایت شخصی">
+            </div>
+
+            <div class="project-content">
+              <span>HTML / CSS / JS</span>
+              <h3>وب‌سایت شخصی</h3>
+
+              <p>
+                یک سایت شخصی مدرن و واکنش‌گرا.
+              </p>
+
+              <!-- باز کردن عکس در اندازه بزرگ -->
+              <a href="1.jpg" target="_blank" class="project-link">
+                مشاهده پروژه ←
+              </a>
+            </div>
+
+          </article>
+
+
+          <!-- Project 02 -->
+          <article class="project">
+
+            <div class="project-image">
+              <img src="2.jpg" alt="پروژه Python">
+            </div>
+
+            <div class="project-content">
+              <span>Python</span>
+              <h3>پروژه Python</h3>
+
+              <p>
+                پروژه برنامه‌نویسی برای تمرین و توسعه مهارت‌ها.
+              </p>
+
+              <!-- باز کردن عکس در اندازه بزرگ -->
+              <a href="2.jpg" target="_blank" class="project-link">
+                مشاهده پروژه ←
+              </a>
+            </div>
+
+          </article>
+
+
+          <!-- Project 03 -->
+          <article class="project">
+
+            <div class="project-image">
+              <img src="3.jpg" alt="سایت کسب‌وکار">
+            </div>
+
+            <div class="project-content">
+              <span>Web Design</span>
+              <h3>سایت کسب‌وکار</h3>
+
+              <p>
+                نمونه طراحی سایت برای معرفی یک کسب‌وکار.
+              </p>
+
+              <!-- باز کردن عکس در اندازه بزرگ -->
+              <a href="3.jpg" target="_blank" class="project-link">
+                مشاهده پروژه ←
+              </a>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+
+      <div class="container">
+
+        <h2>یک پروژه در ذهن داری؟</h2>
+
+        <p>
+          اگر برای کسب‌وکار یا کار شخصی خود به سایت نیاز داری،
+          می‌توانیم درباره پروژه صحبت کنیم.
+        </p>
+
+        <a href="#contact" class="btn white">
+          شروع همکاری
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+
+        <div class="section-title">
+          <span>ارتباط</span>
+          <h2>تماس با من</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- اطلاعات تماس -->
+          <div class="contact-info">
+
+            <h3>بیایید صحبت کنیم</h3>
+
+            <p>
+              برای سفارش طراحی سایت، همکاری یا صحبت درباره یک پروژه
+              می‌توانی از راه‌های زیر با من تماس بگیری.
+            </p>
+
+            <!-- شماره تماس -->
+            <div class="contact-item">
+              📱
+              <div>
+                <strong>شماره تماس</strong>
+
+                <a href="tel:+93786324113">
+                  +93 78 632 4113
+                </a>
+              </div>
+            </div>
+
+            <!-- ایمیل -->
+            <div class="contact-item">
+              ✉️
+              <div>
+                <strong>ایمیل</strong>
+
+                <a href="mailto:miladmohammadin19@gmail.com">
+                  miladmohammadin19@gmail.com
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- دکمه‌های تماس -->
+          <div class="contact-actions">
+
+            <!-- واتساپ -->
+            <a href="https://wa.me/93786324113" class="contact-btn whatsapp" target="_blank" rel="noopener">
+              💬 تماس در واتساپ
+            </a>
+
+
+            <!-- تماس تلفنی -->
+            <a href="tel:+93786324113" class="contact-btn phone">
+              📞 تماس تلفنی
+            </a>
+
+
+            <!-- ایمیل -->
+            <a href="mailto:miladmohammadin19@gmail.com" class="contact-btn email">
+              ✉️ ارسال ایمیل
+            </a>
+
+
+            <!-- دانلود CV -->
+            <a href="cv.txet" class="contact-btn cv" download>
+              📄 دانلود CV
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="container footer">
+
+      <div>
+        <strong>میلاد محمدی</strong>
+        <p>برنامه‌نویس و طراح وب</p>
+      </div>
+
+      <p>
+        © 2026 تمامی حقوق محفوظ است.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
